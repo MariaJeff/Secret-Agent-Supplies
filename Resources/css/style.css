@@ -32,3 +32,35 @@ header span{
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
 }
+
+.small-container{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-size: cover;
+  height: 25rem;
+  display: flex;
+}
+
+ .content{
+  background-color: black;
+  color: white;
+  width: 20rem;
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+  margin-left: 7rem;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.content p{
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.content  span{
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
