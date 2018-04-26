@@ -64,3 +64,19 @@ header span{
   font-size: 2rem;
   font-weight: bold;
 }
+
+nav{
+  display: flex;
+  background-color: firebrick;
+  width: 100%;
+  color: white;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav span{
+  display: inline-flex;
+  width: 4rem;
+  padding: 0.75rem 4rem;
+}
